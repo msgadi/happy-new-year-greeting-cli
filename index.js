@@ -65,7 +65,7 @@ const displayHappyNewYearMessage = () => {
 const isNewYear = () => {
   const today = new Date();
   return (
-    today.getMonth() === 0 && today.getDate() >= 1 && today.getDate() <= 13
+    today.getMonth() === 0 && today.getDate() >= 1 && today.getDate() <= 14
   );
 };
 

