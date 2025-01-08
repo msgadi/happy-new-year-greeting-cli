@@ -3,14 +3,24 @@
   "version": "2.0.0",
   "main": "index.js",
   "type": "module",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "bin": {
+    "happy-new-year": "index.js"
   },
-  "keywords": [],
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "CLI",
+    "New Year",
+    "Happy New Year",
+    "confetti",
+    "greetings"
+  ],
   "author": "Mohammed Gadi",
-  "license": "ISC",
-  "description": "",
+  "license": "MIT",
+  "description": "A cool fun CLI tool that greets you with a Happy New Year message on the terminal!",
   "dependencies": {
-    "chalk": "^5.4.1"
+    "chalk": "^5.4.1",
+    "happy-new-year-greeting-cli": "^1.0.0"
   }
 }
