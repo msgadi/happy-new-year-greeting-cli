@@ -3,6 +3,10 @@
   "version": "3.0.0",
   "main": "index.js",
   "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/msgadi/happy-new-year-greeting-cli"
+  },
   "bin": {
     "happy-new-year": "index.js"
   },
