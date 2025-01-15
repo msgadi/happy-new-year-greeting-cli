@@ -1,6 +1,6 @@
 {
   "name": "happy-new-year-greeting-cli",
-  "version": "3.5.12",
+  "version": "3.5.13",
   "main": "index.js",
   "type": "module",
   "repository": {
